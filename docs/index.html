@@ -1,38 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<title>D-Tree Functions List</title>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-		<meta name="description" content="Description" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
-		<link rel="stylesheet" href="./styles.scss" />
-	</head>
-	<body>
-		<div id="app"></div>
-		<script>
-			window.$docsify = {
-				name: 'D-Tree Doc',
-				repo: '',
-				loadSidebar: true,
-				subMaxLevel: 2,
-				logo: '/_media/logo.svg',
-				auto2top: true,
-				search: {
-					noData: {
-						'/': 'No results!'
-					},
-					paths: 'auto',
-					placeholder: {
-						'/': 'Search'
-					}
-				}
-			};
-		</script>
-		<!-- Docsify v4 -->
-		<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-		<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
-		<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>D-Tree Doc</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        name: "D-Tree Doc",
+        repo: "",
+        loadSidebar: true,
+        subMaxLevel: 2,
+        logo: "/_media/logo.svg",
+        auto2top: true,
+        search: {
+          noData: {
+            "/": "No results!",
+          },
+          paths: "auto",
+          placeholder: {
+            "/": "Search",
+          },
+        },
+      };
+    </script>
+    <style>
+      /* *********************************************** */
+      /* THESE STYLES SHOULD MOVE TO SEPARATE STYLE FILE */
+      /* *********************************************** */
+      
+      body {
+        font-family: "Inter", sans-serif;
+      }
+
+      .sidebar {
+        background-color: #f6f8fa;
+      }
+
+      .sidebar ul li.active > a {
+        color: #3161e4;
+      }
+
+      td,
+      th,
+      tr {
+        border: none !important;
+        background-color: transparent !important;
+      }
+
+      th {
+        display: none;
+      }
+
+      tr td:first-child {
+        font-weight: bold;
+      }
+
+      tr td:nth-child(2) {
+        display: flex;
+        gap: 12px;
+        line-height: 25px;
+      }
+    </style>
+    <!-- Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  </body>
 </html>

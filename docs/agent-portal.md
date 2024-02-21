@@ -3,6 +3,8 @@
 Allows agents to offer training modules, guides, and other resources to better understand and troubleshoot the product.
 
 <img src="./_media/agent-portal.png" alt="Agent Portal view" width="880"/>
+<br>
+<br>
 
 | No. Title            | Text                                                                   |
 | -------------------- | ---------------------------------------------------------------------- |

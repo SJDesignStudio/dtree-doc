@@ -2,6 +2,8 @@
 Visualize how a tree looks on the front-end.
 
 <img src="./_media/preview-mode.png" alt="Preview mode view" width="880"/>
+<br>
+<br>
 
 | No. Title            | Text                                                              |
 | ---------------------| ----------------------------------------------------------------- |

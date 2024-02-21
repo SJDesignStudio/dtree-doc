@@ -3,6 +3,8 @@
 This component allows you to create new or edit trees.
 
 <img src="./_media/tree-builder.png" alt="Tree Builder view" width="880"/>
+<br>
+<br>
 
 | No. Title                | Text                                                                 |
 | ------------------------ | -------------------------------------------------------------------- |
@@ -27,6 +29,8 @@ This component allows you to create new or edit trees.
 This component allows you add images & descriptions on the selected node.
 
 <img src="./_media/text-media-content.png" alt="Text & Media content component" width="880"/>
+<br>
+<br>
 
 | No. Title           | Text                                                                           |
 | ------------------- | ------------------------------------------------------------------------------ |
@@ -38,6 +42,8 @@ This component allows you add images & descriptions on the selected node.
 This component allows you create questions and answer nodes
 
 <img src="./_media/questions-answers.png" alt="Questions and Answers component" width="880"/>
+<br>
+<br>
 
 | No. Title               | Text                                                                 |
 | ----------------------- | -------------------------------------------------------------------- |
