@@ -45,17 +45,28 @@
       /* *********************************************** */
       /* THESE STYLES SHOULD MOVE TO SEPARATE STYLE FILE */
       /* *********************************************** */
-      
+
       body {
         font-family: "Inter", sans-serif;
+        --theme-color: #3161e4;
       }
 
-      .sidebar {
+      .sidebar,
+      .search {
         background-color: #f6f8fa;
       }
 
-      .sidebar ul li.active > a {
-        color: #3161e4;
+      .search input {
+        background-color: #f6f8fa;
+      }
+
+      .search input::placeholder {
+        font-style: italic;
+        color: #c8cedb;
+      }
+
+      .sidebar ul li:first-child {
+        font-weight: bold;
       }
 
       td,
