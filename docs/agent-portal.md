@@ -16,7 +16,7 @@ Allows agents to offer training modules, guides, and other resources to better u
 ## Future Releases
 
 <div class="future-releases" id="future-releases">
-  <img src="./_media/future-releases.svg" alt="Future Releases">
+  <img src="./_media/future-releases.svg" alt="Future Releases" data-no-zoom>
   <ol>
   <li>Add different types of node. E.g. Regular node, Conditional node, Link node, Tree-link node.
   </li>
