@@ -19,6 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <link href="./styles.css" rel="stylesheet" />
   </head>
   <body>
     <div id="app"></div>
@@ -27,7 +28,6 @@
         name: "D-Tree Doc",
         repo: "",
         loadSidebar: true,
-        subMaxLevel: 2,
         logo: "/_media/logo.svg",
         auto2top: true,
         search: {
@@ -41,55 +41,6 @@
         },
       };
     </script>
-    <style>
-      /* *********************************************** */
-      /* THESE STYLES SHOULD MOVE TO SEPARATE STYLE FILE */
-      /* *********************************************** */
-
-      body {
-        font-family: "Inter", sans-serif;
-        --theme-color: #3161e4;
-      }
-
-      .sidebar,
-      .search {
-        background-color: #f6f8fa;
-      }
-
-      .search input {
-        background-color: #f6f8fa;
-      }
-
-      .search input::placeholder {
-        font-style: italic;
-        color: #c8cedb;
-      }
-
-      .sidebar ul li:first-child {
-        font-weight: bold;
-      }
-
-      td,
-      th,
-      tr {
-        border: none !important;
-        background-color: transparent !important;
-      }
-
-      th {
-        display: none;
-      }
-
-      tr td:first-child {
-        font-weight: bold;
-      }
-
-      tr td:nth-child(2) {
-        display: flex;
-        gap: 12px;
-        line-height: 25px;
-      }
-    </style>
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
