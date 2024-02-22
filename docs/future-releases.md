@@ -1,7 +1,6 @@
 # Future Releases
 
 <div class="future-releases" id="future-releases">
-  <img src="./_media/future-releases.svg" alt="Future Releases" data-no-zoom>
   <ol>
   <li>Add different types of node. E.g. Regular node, Conditional node, Link node, Tree-link node.
   </li>
@@ -32,19 +31,4 @@ ol {
 ol li {
   line-height: 32px;
 }
-
-/* Override Docsify default CSS to display submenus */
-.sidebar-nav>.nav-group ul {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    max-height: none !important; /* Adjust this property as needed */
-}
-
-/* Optional: Adjust styling to differentiate submenus from parent items */
-.sidebar-nav>.nav-group ul li {
-    padding-left: 20px; /* Indent submenus */
-    /* Add any additional styling as needed */
-}
-
 </style>
