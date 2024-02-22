@@ -1,6 +1,12 @@
 - Understanding D-Tree
   - [Login](login.md)
-  - [Project Manager](project-manager.md)
-  - [Tree Builder](tree-builder.md)
+  - [Project Manager](project-manager.md?id=project-manager)
+    - [&#x2022; Profile Icon](project-manager.md?id=profile-icon)
+    - [&#x2022; Actions Dropdown](project-manager.md?id=actions-dropdown)
+  - [Tree Builder](tree-builder.md?id=tree-builder)
+    - [&#x2022; Text & Media Content](tree-builder.md?id=text-amp-media-content)
+    - [&#x2022; Questions & Answers](tree-builder.md?id=questions-amp-answers)
   - [Preview Mode](preview-mode.md)
   - [Agent Portal](agent-portal.md)
+      <span class="breakline"></span>
+  - [Future Releases](future-releases.md)
